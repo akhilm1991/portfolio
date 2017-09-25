@@ -6,7 +6,9 @@ $(window).load(function() {
         forceHeight: false
     });
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        skrollr.init();
+        skrollr.init({
+            forceHeight:false
+        });
     }
 });
 
