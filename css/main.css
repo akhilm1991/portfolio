@@ -25,4 +25,64 @@ body{
     float:left;
   }
 
-  
+  /* button div */
+#buttons {
+  padding-top: 50px;
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  border-radius: 5px;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.modal-effects {
+  color: black;
+  max-height: 100%;
+  position: fixed; 
+   overflow-y: scroll;
+   background-color: white;
+    top: 0; right: 0; bottom: 0; left: 0; 
+}
+.modal-content{
+  position: absolute;
+  left: 7%; top:12%; right: 7%; 
+  padding-bottom: 80px;
+}
+.modal-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.modal-sub-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.modal-text-para {
+  font-size: 16px;
+  font-weight: 400;
+}
+
